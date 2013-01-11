@@ -23,3 +23,7 @@
 [1 2 3])
 
 
+//with reduce
+#(reduce (fn [cnt arr] (inc cnt)) 0 %)
+
+
